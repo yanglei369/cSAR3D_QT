@@ -554,6 +554,7 @@ class App(object):
         self.timeThread.start()
 
     def startTest(self):
+        print("1111111111111111111111")
         # 打印开始测试信息
         self.print_log("\nstarting... \nplease wait...\n")
         # 扫描窗口获取所有窗口标题
